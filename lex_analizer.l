@@ -13,7 +13,7 @@ p                           printf("print");
 -                           printf("minus");
 \*                          printf("multiply");
 \/                          printf("divide");
-[a-z]                       printf("id");
+[a-eg-hj-oq-z]              printf("id");
 [1-9][0-9]*\.[0-9]*[1-9]    printf("fnum");
 0\.[0-9]*[1-9]              printf("fnum");
 0\.0                        printf("fnum");
